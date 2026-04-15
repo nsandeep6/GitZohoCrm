@@ -23,7 +23,7 @@ public static WebDriver driver;
 @BeforeTest
 public void openbrowser() throws InterruptedException, IOException {
 	Reporter.log("open browser",true);
-	driver = new FirefoxDriver();
+	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	Thread.sleep(2000);
