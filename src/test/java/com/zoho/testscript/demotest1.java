@@ -7,8 +7,7 @@ public class demotest1 {
 
 	@Test
 	public void createContact() {
-		Reporter.log("Created", true);
-	}
+		Reporter.log("Create customer",true);	}
 	
 	
 }
